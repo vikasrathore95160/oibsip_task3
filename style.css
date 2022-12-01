@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(164deg, rgba(123,134,232,1) 0%, rgba(246,140,255,1) 52%, rgba(255,222,50,1) 100%);
+    display: grid;
+    place-items: center;
+}
+
+.container
+{
+    background-color: white;
+    height: 50vh;
+    width: 35vw;
+    border-radius: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.labelcon{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.btn
+{
+    background: linear-gradient(164deg, rgba(123,134,232,1) 0%, rgba(246,140,255,1) 52%, rgba(255,222,50,1) 100%);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 13px;
+    width: 80%;
+}
+/* 
+.btn:hover {
+    background: linear-gradient(164deg, rgba(123,134,232,1) 0%, rgba(246,140,255,1) 52%, rgba(255,222,50,1) 100%);
+    color: black;
+} */
+
+.result
+{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+input[type=number] {
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 14px;
+    font-size: 25px;
+}
+
+.input
+{
+    display: inline-block;
+    margin-top: 12px;
+    width: 55%;
+}
+
+.selection
+{
+    display: flex;
+    float: right;
+    position: relative;
+    font-family: Arial;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+
+select{
+    padding: 4px;
+    border: 2px solid #ccc;
+}
